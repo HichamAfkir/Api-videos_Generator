@@ -1,7 +1,5 @@
 {% macro card(video) -%}
-      <div class='card'>
-
-         
+      <div class='card'>         
         <div class='thumbnailContainer'>
           <a href="https://www.youtube.com/watch?v={{video['videoId']}}">
           <img
@@ -22,7 +20,7 @@
         <a href="https://www.youtube.com/watch?v={{video['videoId']}}">
         <div class='info'>
           <p>{{ video['title'] }}</p>
-          <span>Clever Programmer</span></br>
+          <span>Les mathématiques</span></br>
           <span>{{ video['stats']['views'] | numberize }} views • {{ video['publishedTimeText'] }}</span>
         </div>
         </a>
